@@ -1,0 +1,10 @@
+void setup() {
+  pinMode(8, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(8, HIGH); //señal de 1
+  delay(1000);
+  digitalWrite(8, LOW); //señal de 0
+  delay(1000);
+}
