@@ -1,0 +1,25 @@
+void funBinario(int led, int val) {
+  val = constrain(val, 0, 15);  // Se limita el valor de 'val' entre 0 y 15 para evitar valores fuera del rango
+  for (int i = 0; i < 4; i++) {  // Se itera 4 veces, una por cada bit que se desea controlar (4 LEDs)
+    int pinLed = led - i;  // Se calcula el pin del LED restando 'i' al valor del pin inicial
+
+    if ((val >> i) & 1) {  // Se desplaza el valor 'val' a la izquierda 'i' posiciones y se obtiene el bit correspondiente
+      digitalWrite(pinLed, HIGH);  // Si el bit es 1, enciende el LED
+    } else {
+      digitalWrite(pinLed, LOW);  // Si el bit es 0, apaga el LED
+    }
+  }
+  delay(3000);  // Se agrega un retraso de 3 segundos antes de cambiar al siguiente valor
+}
+
+void setup() {
+  for (int a = 1; a <= 13; a++) {  // Se configura cada pin desde el 1 hasta el 13 como salida
+    pinMode(a, OUTPUT);
+  }
+}
+
+void loop() {
+  for (int e = 0; e <= 15; e++) {  // Se itera desde 0 hasta 15 (todos los posibles valores de 4 bits)
+    funBinario(13, e);  // Llama a la función 'funBinario' para encender y apagar los LEDs según el valor de 'e'
+  }
+}
