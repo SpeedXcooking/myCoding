@@ -1,0 +1,16 @@
+D:\Documentos\taller8\code13\code13\obj\Debug\code13.csproj.AssemblyReference.cache
+D:\Documentos\taller8\code13\code13\obj\Debug\code13.csproj.CoreCompileInputs.cache
+D:\Documentos\taller8\code13\code13\bin\Debug\code13.exe.config
+D:\Documentos\taller8\code13\code13\bin\Debug\code13.exe
+D:\Documentos\taller8\code13\code13\bin\Debug\code13.pdb
+D:\Documentos\taller8\code13\code13\obj\Debug\code13.exe
+D:\Documentos\taller8\code13\code13\obj\Debug\code13.pdb
+D:\Documentos\taller8\code13\code13\obj\Debug\code13.exe.config
+D:\Descargas\code13\code13\bin\Debug\code13.exe.config
+D:\Descargas\code13\code13\bin\Debug\code13.exe
+D:\Descargas\code13\code13\bin\Debug\code13.pdb
+D:\Descargas\code13\code13\obj\Debug\code13.csproj.AssemblyReference.cache
+D:\Descargas\code13\code13\obj\Debug\code13.exe.config
+D:\Descargas\code13\code13\obj\Debug\code13.csproj.CoreCompileInputs.cache
+D:\Descargas\code13\code13\obj\Debug\code13.exe
+D:\Descargas\code13\code13\obj\Debug\code13.pdb
